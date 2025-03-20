@@ -1,0 +1,113 @@
+.parcours-container .titre-parcours {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.parcours {
+  display: flex;
+  flex-direction: column;
+  gap: 20vw;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+}
+
+.parcours-image {
+  aspect-ratio: 4 / 2; /* Ratio fixe 3:2 pour homogénéité (ex: 30vw x 20vw) */
+  width: 40vw;
+  height: 30vw;
+  object-fit: cover;
+  position: absolute; /* Pour chevaucher */
+  top: 50%; /* On centre verticalement */
+  transform: translateY(-50%); /* Ajustement */
+  box-shadow: 0px 14px 10px rgb(0, 0, 0);
+}
+
+.project .content {
+  position: relative; /* Important pour ::before et ::after */
+  font-size: 1.2vw;
+  padding: 10%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  border: solid white 1px;
+  max-width: 30vw;
+  overflow: hidden; /* Évite des débordements visuels */
+  z-index: 1; /* Assure que le contenu est au-dessus */
+}
+
+.right .content {
+  box-shadow: 20px 25px 10px rgb(0, 0, 0, 0.8);
+}
+
+.right .parcours-image {
+  box-shadow: 20px 25px 10px rgb(0, 0, 0, 0.8);
+}
+
+.left .content {
+  box-shadow: -20px 25px 10px rgba(0, 0, 0, 0.8);
+}
+
+.left .parcours-image {
+  box-shadow: -20px 25px 10px rgb(0, 0, 0, 0.8);
+}
+
+.project .content::before,
+.project .content::after {
+  content: "";
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.project .content::before {
+  top: 0;
+  left: 0;
+  background-image: url(/orn3.webp);
+  z-index: -1;
+}
+
+.project .content::after {
+  bottom: 0;
+  right: 0;
+  background-image: url(/orn4.webp);
+  z-index: -1;
+}
+
+/* Alternance gauche/droite */
+.project.left {
+  flex-direction: row;
+  margin-left: 50%;
+}
+
+.project.right {
+  flex-direction: row-reverse;
+  margin-right: 50%;
+}
+
+.project.left .parcours-image {
+  left: -110%; /* Collé à gauche */
+  top: 20%;
+}
+
+.project.right .parcours-image {
+  left: 80%; /* Collé à droite */
+  top: 20%;
+}
+
+.trait {
+  border: solid grey 1px;
+  margin-bottom: 2vw;
+}
+
+@media screen and (max-width: 768px) {
+  .project.left .parcours-image {
+    left: -80%; /* Collé à gauche */
+  }
+}

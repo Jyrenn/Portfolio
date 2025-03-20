@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Lycée Louis Armand",
+    "description": "J’ai suivi la filière générale Scientifique (S) au Lycée Louis Armand, où j’ai acquis une solide base en sciences, logique et rigueur. J’y ai obtenu mon Baccalauréat, consolidant ainsi mes compétences analytiques et méthodiques.",
+    "image": "/lycee.webp"
+  },
+  {
+    "id": 2,
+    "title": "MJM Graphic Design",
+    "description": "J’ai intégré MJM Graphic Design Paris pour une année préparatoire pluridisciplinaire, me permettant d’explorer divers domaines artistiques : dessin anatomique, perspective, peinture, infographie, etc. Par la suite, j’ai poursuivi un Bachelor en Réalisation de Cinéma d’Animation 3D sur 3 ans, où j’ai développé mes compétences en modélisation, animation, composition visuelle et gestion de projets créatifs.",
+    "image": "/mjm.webp"
+  },
+  {
+    "id": 3,
+    "title": "OpenClassrooms",
+    "description": "J’ai suivi une formation intensive de Développeur Web sur 6 mois via la plateforme OpenClassrooms. Ce cursus professionnalisant m’a permis de maîtriser les technologies du web (HTML, CSS, JavaScript, React, Node.js, bases de données, etc.) ainsi que les bonnes pratiques de développement, de sécurité et d’optimisation, en réalisant plusieurs projets concrets.",
+    "image": "/openclassrooms.webp"
+  }
+]

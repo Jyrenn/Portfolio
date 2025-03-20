@@ -1,0 +1,181 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 15vw;
+  margin-top: 20%;
+  padding-bottom: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  position: relative; /* On ajoute ça */
+}
+
+.projects-image {
+  aspect-ratio: 4 / 2; /* Ratio fixe 3:2 pour homogénéité (ex: 30vw x 20vw) */
+  width: 40vw;
+  height: 30vw;
+  object-fit: cover;
+  position: absolute; /* Pour chevaucher */
+  top: 50%; /* On centre verticalement */
+  transform: translateY(-50%); /* Ajustement */
+  box-shadow: 0px 14px 10px rgb(0, 0, 0);
+}
+
+.project-skills {
+  display: flex; /* Utilisation de flexbox pour l'alignement des icônes */
+  flex-wrap: wrap; /* Permet aux icônes de passer à la ligne si nécessaire */
+  gap: 0.5vw; /* Espacement entre les icônes */
+  justify-content: center; /* Centrer les icônes horizontalement */
+  margin-top: 1vw; /* Espacement avec les autres éléments */
+}
+
+.project-skills .skill-item {
+  display: flex;
+  flex-direction: column; /* On aligne les icônes verticalement avec leur nom */
+  align-items: center; /* Centrer le contenu */
+}
+
+.project-skills img {
+  width: 3vw; /* Ajuste la taille des icônes */
+  height: 3vw;
+  object-fit: contain;
+  margin-bottom: 0.5vw; /* Espacement entre l'icône et le nom */
+  position: relative;
+}
+
+.project .content {
+  position: relative; /* Important pour ::before et ::after */
+  font-size: 1.2vw;
+  padding: 10%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  border: solid white 1px;
+  max-width: 30vw;
+  overflow: hidden; /* Évite des débordements visuels */
+  z-index: 2; /* Assure que le contenu est au-dessus */
+}
+
+.right .content {
+  box-shadow: 20px 25px 10px rgb(0, 0, 0, 0.8);
+}
+
+.right .projects-image {
+  box-shadow: 20px 25px 10px rgb(0, 0, 0, 0.8);
+}
+
+.left .content {
+  box-shadow: -20px 25px 10px rgba(0, 0, 0, 0.8);
+}
+
+.left .projects-image {
+  box-shadow: -20px 25px 10px rgb(0, 0, 0, 0.8);
+}
+
+.project .content::before,
+.project .content::after {
+  content: "";
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.project .content::before {
+  top: 0;
+  left: 0;
+  background-image: url(/orn3.webp);
+  z-index: 1;
+}
+
+.project .content::after {
+  bottom: 0;
+  right: 0;
+  background-image: url(/orn4.webp);
+  z-index: 1;
+}
+
+/* Alternance gauche/droite */
+.project.left {
+  flex-direction: row;
+  margin-left: 50%;
+}
+
+.project.right {
+  flex-direction: row-reverse;
+  margin-right: 50%;
+}
+
+.project.left .projects-image {
+  left: -110%; /* Collé à gauche */
+  top: 20%;
+}
+
+.project.right .projects-image {
+  left: 80%; /* Collé à droite */
+  top: 20%;
+}
+
+.trait {
+  border: solid grey 1px;
+  margin-bottom: 2vw;
+}
+
+/* 🌍 Responsive */
+@media screen and (max-width: 768px) {
+  .project {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .project img,
+  .project .content {
+    width: 100%;
+  }
+
+  .project.left .projects-image {
+    left: -80%; /* Collé à gauche */
+  }
+}
+
+h2 {
+  margin: 0;
+}
+
+.switch-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.switch-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.switch-buttons button.active {
+  background-color: #e9c753;
+  color: #000;
+}
+
+.switch-buttons button:hover {
+  background-color: #e9c753;
+  color: #000;
+}
+
+button {
+  font-size: 1vw;
+}
+
+.projects-container {
+  margin-bottom: 10%;
+}

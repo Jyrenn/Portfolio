@@ -1,0 +1,77 @@
+.navbar {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  justify-content: center;
+  position: absolute;
+  display: flex; /* Organiser les liens en ligne */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: 0.5s;
+}
+.navbar:hover::before {
+  left: 100%;
+}
+
+.liens {
+  display: flex;
+  gap: 3vw;
+}
+
+.liens a {
+  font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+  text-decoration: none;
+  display: inline-block; /* Nécessaire pour appliquer la transformation */
+  position: relative; /* Nécessaire pour positionner le pseudo-élément correctement */
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding: 2px 5px;
+  font-size: 1vw;
+  box-shadow: rgba(233, 199, 83, 0.5) 0px 2px 4px,
+    rgba(233, 199, 83, 0.5) 0px 7px 13px -3px,
+    rgba(233, 199, 83, 0.5) 0px -3px 0px inset;
+}
+
+.liens a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0; /* Au départ, l'élément est caché */
+  background: #e9c753;
+  transition: height 0.3s ease-in-out;
+  z-index: -1; /* Place l'effet en arrière-plan */
+}
+
+.liens a:hover {
+  transform: scale(1.1); /* Agrandir le lien à 120% */
+  color: black;
+}
+
+.liens a:hover::before {
+  height: 100%; /* L'effet de fond doré occupe toute la hauteur du lien au survol */
+}
+
+a.active {
+  background: #e9c753;
+  color: black;
+  transform: scale(1.1);
+}

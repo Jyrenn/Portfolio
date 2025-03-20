@@ -1,0 +1,9 @@
+/* Définition de l'animation de rotation */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Début de la rotation */
+  }
+  to {
+    transform: rotate(360deg); /* Fin de la rotation */
+  }
+}

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+.Profil {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  font-family: "Orbitron", sans-serif;
+}
+
+.Profil h1 {
+  font-size: 4.5vw;
+  margin-bottom: 0.5vw;
+  min-width: 250%;
+}
+
+.Profil h2 {
+  font-size: 2.5vw;
+  opacity: 0.9;
+  min-width: 250%;
+}

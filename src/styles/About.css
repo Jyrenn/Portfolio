@@ -1,0 +1,13 @@
+.About {
+  padding: 7%;
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  z-index: 2;
+}
+
+.About p {
+  font-size: 1.1vw;
+}
