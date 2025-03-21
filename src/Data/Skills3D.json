@@ -3,32 +3,32 @@
     "id": 1,
     "title": "Modélisation 3D",
     "skills": [
-      { "id": 1, "name": "3ds Max", "icon": "/3dsmax.webp" },
-      { "id": 2, "name": "ZBrush", "icon": "/zbrush.webp" }
+      { "id": 1, "name": "3ds Max", "icon": "3dsmax.webp" },
+      { "id": 2, "name": "ZBrush", "icon": "zbrush.webp" }
     ]
   },
   {
     "id": 2,
     "title": "Texturing",
     "skills": [
-      { "id": 1, "name": "Substance Painter", "icon": "/substance.webp" }
+      { "id": 1, "name": "Substance Painter", "icon": "substance.webp" }
     ]
   },
   {
     "id": 3,
     "title": "Rendering",
     "skills": [
-      { "id": 1, "name": "V-Ray", "icon": "/vray.webp" },
-      { "id": 2, "name": "Marmoset", "icon": "/marmoset.webp" }
+      { "id": 1, "name": "V-Ray", "icon": "vray.webp" },
+      { "id": 2, "name": "Marmoset", "icon": "marmoset.webp" }
     ]
   },
   {
     "id": 4,
     "title": "Autres",
     "skills": [
-      { "id": 1, "name": "Photoshop", "icon": "/photoshop.webp" },
-      { "id": 2, "name": "Unreal Engine", "icon": "/unreal.webp" },
-      { "id": 3, "name": "Unity", "icon": "/unity.webp" }
+      { "id": 1, "name": "Photoshop", "icon": "photoshop.webp" },
+      { "id": 2, "name": "Unreal Engine", "icon": "unreal.webp" },
+      { "id": 3, "name": "Unity", "icon": "unity.webp" }
     ]
   }
 ]

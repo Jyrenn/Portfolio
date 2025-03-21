@@ -3,38 +3,38 @@
     "id": 1,
     "title": "Classic Vintage Armchair",
     "description": "Test technique pour Ubisoft réalisé en 4 jours utilisant 3ds Max, Zbrush, Substance Painter, Marmoset.",
-    "image": "/chair.webp",
+    "image": "chair.webp",
     "lien": "https://jyrenn.artstation.com/projects/klkxBy",
     "skills": [
-      { "id": 1, "name": "3ds max", "icon": "/3dsmax.webp" },
-      { "id": 2, "name": "Zbrush", "icon": "/zbrush.webp" },
-      { "id": 3, "name": "Substance Painter", "icon": "/substance.webp" },
-      { "id": 4, "name": "Marmoset", "icon": "/marmoset.webp" }
+      { "id": 1, "name": "3ds max", "icon": "3dsmax.webp" },
+      { "id": 2, "name": "Zbrush", "icon": "zbrush.webp" },
+      { "id": 3, "name": "Substance Painter", "icon": "substance.webp" },
+      { "id": 4, "name": "Marmoset", "icon": "marmoset.webp" }
     ]
   },
   {
     "id": 2,
     "title": "Time Out Game UE4",
     "description": "Projet de démo de jeu vidéo pour mon auto formation. Réalisé sous l'Unreal Engine, je me suis servi de ce projet pour apprendre la pipeline de réalisation d'un jeu vidéo (props, blueprints, optimisation,etc...",
-    "image": "/TimeOut.webp",
+    "image": "TimeOut.webp",
     "lien": "https://jyrenn.artstation.com/projects/D5kNmo",
     "skills": [
-      { "id": 1, "name": "3ds max", "icon": "/3dsmax.webp" },
-      { "id": 2, "name": "Substance Painter", "icon": "/substance.webp" },
-      { "id": 3, "name": "Unreal Engine", "icon": "/unreal.webp" }
+      { "id": 1, "name": "3ds max", "icon": "3dsmax.webp" },
+      { "id": 2, "name": "Substance Painter", "icon": "substance.webp" },
+      { "id": 3, "name": "Unreal Engine", "icon": "unreal.webp" }
     ]
   },
   {
     "id": 3,
     "title": "Demon Sword",
     "description": "Projet personnel pour m'entraîner à l'optimisation d'asset pour du jeu vidéo Utilisant 3ds Max, Zbrush, Substance Painter, Marmoset.",
-    "image": "/Sword.webp",
+    "image": "Sword.webp",
     "lien": "https://jyrenn.artstation.com/projects/R3Q2eA",
     "skills": [
-      { "id": 1, "name": "3ds max", "icon": "/3dsmax.webp" },
-      { "id": 2, "name": "Zbrush", "icon": "/zbrush.webp" },
-      { "id": 3, "name": "Substance Painter", "icon": "/substance.webp" },
-      { "id": 4, "name": "Marmoset", "icon": "/marmoset.webp" }
+      { "id": 1, "name": "3ds max", "icon": "3dsmax.webp" },
+      { "id": 2, "name": "Zbrush", "icon": "zbrush.webp" },
+      { "id": 3, "name": "Substance Painter", "icon": "substance.webp" },
+      { "id": 4, "name": "Marmoset", "icon": "marmoset.webp" }
     ]
   }
 ]

@@ -1,8 +1,8 @@
-.boutons-footer a {
+.texte-lien {
   font-size: 0.7vw;
 }
 
-footer p {
+.mentions {
   display: flex;
   justify-content: center;
   font-size: 0.6vw;

@@ -100,3 +100,179 @@ h1 {
   justify-content: center;
   margin-top: 10%;
 }
+
+@media (max-width: 768px) {
+  body::before {
+    top: 5%;
+    left: 25%; /* Positionner à droite */
+    width: 75vw; /* Taille du cercle lumineux */
+    height: 75vw; /* Taille du cercle lumineux */
+    border-radius: 50%; /* Rendre la forme circulaire */
+    opacity: 0.3;
+  }
+
+  header .navbar {
+    position: relative;
+    height: 8vw;
+    align-items: center;
+  }
+
+  header .navbar .liens {
+    height: 6vw;
+    align-items: center;
+  }
+
+  header .navbar .liens a {
+    font-size: 3vw;
+  }
+
+  .Base {
+    height: 120vw;
+  }
+
+  .LogoAnimateImg {
+    width: 130vw;
+    transform: translateY(30%);
+  }
+
+  .Profil {
+    position: absolute;
+    z-index: 2;
+    padding-top: 5vw;
+  }
+
+  .ProfilImage {
+    position: absolute;
+    transform: translate(-100%, 29%);
+    overflow: hidden;
+  }
+
+  .ProfilImageimg {
+    width: 80vw;
+    transform: translate(20%, -15%);
+  }
+
+  .Profil h1 {
+    font-size: 8vw;
+    max-width: 35vw;
+  }
+
+  .Profil h2 {
+    font-size: 5vw;
+    max-width: 35vw;
+  }
+
+  .Base .boutons-container {
+    display: block;
+    transform: translate(30%, 100%);
+    margin: 0;
+  }
+
+  .Base .Bouton {
+    font-size: 3vw;
+    margin-top: 5vw;
+  }
+
+  .About {
+    flex-direction: column;
+  }
+
+  .About h2 {
+    font-size: 5vw;
+  }
+
+  .About p {
+    font-size: 3.125vw;
+    text-align: center;
+  }
+
+  .titre-projets {
+    font-size: 5vw;
+  }
+
+  .switch-buttons button,
+  .skill-buttons button,
+  .content h2,
+  .skill-item,
+  .Bouton a,
+  p {
+    font-size: 3.125vw;
+  }
+
+  .titre-skills,
+  .titre-parcours,
+  .content h2 {
+    font-size: 5vw;
+  }
+
+  .projects {
+    margin: 0;
+    margin-top: 50%;
+    align-items: normal;
+    gap: 50vw;
+  }
+
+  .project .content {
+    font-size: 3.125vw;
+    max-width: none;
+  }
+
+  .left .content {
+    left: -20%;
+  }
+
+  .right .content {
+    right: -20%;
+  }
+
+  .project-skills img {
+    height: 5vw;
+  }
+
+  .project.left .projects-image {
+    top: 5%;
+    width: 80vw;
+    height: 60vw;
+    left: -90%;
+  }
+
+  .project.right .projects-image {
+    top: 5%;
+    width: 75vw;
+    height: 60vw;
+    left: 40%;
+  }
+
+  .parcours-container .project.left {
+    margin-left: 50%;
+  }
+
+  .parcours-container .project.right {
+    margin-right: 50%;
+  }
+
+  .project.left .parcours-image {
+    top: 5%;
+    width: 80vw;
+    height: 60vw;
+    left: -90%;
+  }
+
+  .project.right .parcours-image {
+    top: 5%;
+    width: 75vw;
+    height: 60vw;
+    left: 40%;
+  }
+
+  .parcours {
+    margin-top: 50%;
+    gap: 50vw;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  footer .mentions {
+    font-size: 2vw;
+  }
+}

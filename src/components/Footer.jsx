@@ -11,7 +11,7 @@ const Footer = () => {
         <Bouton texte="itch.io" lien="https://jyrenn.itch.io/time-out-demo" />
         <Bouton texte="CV" lien="/CV_ClementMartin.pdf" />
       </div>
-      <p>Clément Martin © Mentions légales</p>
+      <p className="mentions">Clément Martin © Mentions légales</p>
     </footer>
   );
 };

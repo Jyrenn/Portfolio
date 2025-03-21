@@ -102,12 +102,12 @@
 }
 
 /* Alternance gauche/droite */
-.project.left {
+.projects-container .project.left {
   flex-direction: row;
   margin-left: 50%;
 }
 
-.project.right {
+.projects-container .project.right {
   flex-direction: row-reverse;
   margin-right: 50%;
 }

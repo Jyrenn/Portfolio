@@ -3,30 +3,30 @@
     "id": 1,
     "title": "Front-end",
     "skills": [
-      { "id": 1, "name": "HTML", "icon": "/html5.webp" },
-      { "id": 2, "name": "CSS", "icon": "/css.webp" },
-      { "id": 3, "name": "Sass", "icon": "/sass.webp" },
+      { "id": 1, "name": "HTML", "icon": "html5.webp" },
+      { "id": 2, "name": "CSS", "icon": "css.webp" },
+      { "id": 3, "name": "Sass", "icon": "sass.webp" },
       { "id": 4, "name": "JavaScript", "icon": "javascript.webp" },
-      { "id": 5, "name": "React", "icon": "/react.webp" },
-      { "id": 6, "name": "Vue.js", "icon": "/vuejs.webp" }
+      { "id": 5, "name": "React", "icon": "react.webp" },
+      { "id": 6, "name": "Vue.js", "icon": "vuejs.webp" }
     ]
   },
   {
     "id": 2,
     "title": "Back-end",
     "skills": [
-      { "id": 1, "name": "Node.js", "icon": "/nodejs.webp" },
-      { "id": 2, "name": "Express", "icon": "/express.webp" },
-      { "id": 3, "name": "MongoDB", "icon": "/mongodb.webp" }
+      { "id": 1, "name": "Node.js", "icon": "nodejs.webp" },
+      { "id": 2, "name": "Express", "icon": "express.webp" },
+      { "id": 3, "name": "MongoDB", "icon": "mongodb.webp" }
     ]
   },
   {
     "id": 3,
     "title": "Outils",
     "skills": [
-      { "id": 1, "name": "Git", "icon": "/git.webp" },
-      { "id": 2, "name": "GitHub", "icon": "/github.webp" },
-      { "id": 3, "name": "Postman", "icon": "/postman.webp" }
+      { "id": 1, "name": "Git", "icon": "git.webp" },
+      { "id": 2, "name": "GitHub", "icon": "github.webp" },
+      { "id": 3, "name": "Postman", "icon": "postman.webp" }
     ]
   }
 ]

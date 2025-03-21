@@ -83,12 +83,10 @@
 /* Alternance gauche/droite */
 .project.left {
   flex-direction: row;
-  margin-left: 50%;
 }
 
 .project.right {
   flex-direction: row-reverse;
-  margin-right: 50%;
 }
 
 .project.left .parcours-image {
