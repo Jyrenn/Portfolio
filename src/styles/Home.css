@@ -101,6 +101,14 @@ h1 {
   margin-top: 10%;
 }
 
+.parcours-container .project.left {
+  margin-left: 50%;
+}
+
+.parcours-container .project.right {
+  margin-right: 50%;
+}
+
 @media (max-width: 768px) {
   body::before {
     top: 5%;
