@@ -9,6 +9,7 @@
   backdrop-filter: blur(10px);
   border-top: 2px solid rgba(255, 255, 255, 0.2);
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
 }
 
 .navbar::before {

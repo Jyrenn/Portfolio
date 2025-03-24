@@ -9,6 +9,10 @@ const Footer = () => {
         <Bouton texte="Github" lien="https://github.com/Jyrenn" />
         <Bouton texte="Artstation" lien="https://jyrenn.artstation.com" />
         <Bouton texte="itch.io" lien="https://jyrenn.itch.io/time-out-demo" />
+        <Bouton
+          texte="Linkedin"
+          lien="https://www.linkedin.com/in/clément-martin-933740143/"
+        />
         <Bouton texte="CV" lien="/CV_ClementMartin.pdf" />
       </div>
       <p className="mentions">Clément Martin © Mentions légales</p>
