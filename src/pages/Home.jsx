@@ -38,6 +38,10 @@ export default function Home() {
                 lien="https://jyrenn.itch.io/time-out-demo"
               />
               <Bouton texte="CV" lien="/CV_ClementMartin.pdf" />
+              <Bouton
+                texte="Linkedin"
+                lien="https://www.linkedin.com/in/clément-martin-933740143/"
+              />
             </div>
           </motion.div>
         </div>
