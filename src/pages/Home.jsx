@@ -41,7 +41,7 @@ export default function Home() {
                 texte="Linkedin"
                 lien="https://www.linkedin.com/in/clément-martin-933740143/"
               />
-              <Bouton texte="CV" lien="/CV_ClementMartin.pdf" />
+              <Bouton texte="CV" lien="CV_ClementMartin.pdf" />
             </div>
           </motion.div>
         </div>
