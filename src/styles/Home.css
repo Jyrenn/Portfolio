@@ -239,14 +239,14 @@ h1 {
   }
 
   .project.left .projects-image {
-    top: 5%;
+    top: -10%;
     width: 80vw;
     height: 60vw;
     left: -90%;
   }
 
   .project.right .projects-image {
-    top: 5%;
+    top: -10%;
     width: 75vw;
     height: 60vw;
     left: 40%;
@@ -265,14 +265,14 @@ h1 {
   }
 
   .project.left .parcours-image {
-    top: 5%;
+    top: -10%;
     width: 80vw;
     height: 60vw;
     left: -90%;
   }
 
   .project.right .parcours-image {
-    top: 5%;
+    top: -10%;
     width: 75vw;
     height: 60vw;
     left: 40%;
