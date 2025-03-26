@@ -52,10 +52,7 @@
 }
 
 .project-skills img:hover {
-  position: absolute;
   filter: drop-shadow(0 0 2px #fff);
-  width: 3.5vw;
-  height: 3.5vw;
 }
 
 .project .content {

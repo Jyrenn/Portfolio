@@ -73,6 +73,11 @@ export default function Home() {
       <div id="parcours">
         <Parcours />
       </div>
+      <div className="arrow">
+        <a href="#accueil">
+          <img src="arrow.png" alt="Retour à l'accueil" />
+        </a>
+      </div>
     </div>
   );
 }
