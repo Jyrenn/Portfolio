@@ -41,12 +41,21 @@
 }
 
 .project-skills img {
+  position: absolute;
   width: 3vw; /* Ajuste la taille des icônes */
   height: 3vw;
   object-fit: contain;
   margin-bottom: 0.5vw; /* Espacement entre l'icône et le nom */
   position: relative;
   margin: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-skills img:hover {
+  position: absolute;
+  filter: drop-shadow(0 0 2px #fff);
+  width: 3.5vw;
+  height: 3.5vw;
 }
 
 .project .content {
