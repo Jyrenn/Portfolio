@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Booki",
-    "description": "Le projet Booki consiste à intégrer une interface web en HTML et CSS pour une start-up proposant des hébergements et activités. En suivant les maquettes fournies, l'objectif est de créer un site responsive et bien structuré en utilisant Flexbox et Grid, tout en respectant les bonnes pratiques d’accessibilité et de validation du code.",
+    "description": "Le projet Booki consiste à intégrer l’interface d’un site web permettant aux utilisateurs de trouver des hébergements et des activités. L’un des défis majeurs est de convertir fidèlement la maquette en une page responsive en utilisant HTML et CSS. La structuration des éléments, le positionnement avec Flexbox/Grid et l’adaptation aux différents écrans nécessitent une approche rigoureuse. L’utilisation des media queries permet d’assurer un affichage adapté à toutes les tailles d’écran.",
     "image": "Booki.webp",
     "lien": "https://github.com/Jyrenn/ProjetOC_2",
     "skills": [
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "title": "Kasa",
-    "description": "Le projet Kasa est une refonte d’un site de location d’appartements, passant d’une vieille base ASP.NET à une stack moderne en React. Ma mission est de développer le front-end à partir de maquettes Figma responsives, en utilisant Vite, React Router et Sass. Les principaux enjeux sont la création de composants réutilisables, la gestion fluide des interactions (carrousel, collapses) et une navigation sans erreur, tout en travaillant sans back-end via des données JSON.",
+    "description": "Le projet Kasa est une refonte d’un site de location d’appartements, visant à moderniser une application existante avec une stack JavaScript. Ma mission est de développer le front-end en React à partir de maquettes Figma responsives, en utilisant Vite, React Router et Sass. Les défis incluent la création de composants réutilisables, la gestion fluide des interactions (carrousel, collapses) et une navigation robuste, tout en travaillant sans back-end avec des données JSON.",
     "image": "Kasa.webp",
     "lien": "https://github.com/Jyrenn/Projet_OC5",
     "skills": [
@@ -27,7 +27,7 @@
   {
     "id": 3,
     "title": "Mon vieux grimoire",
-    "description": "Le projet Mon Vieux Grimoire consiste à développer le back-end d’un site de notation de livres pour une chaîne de librairies lilloise. En collaboration avec un développeur front-end, ma mission est de créer une API sous Node.js, Express et MongoDB, permettant aux utilisateurs d’ajouter des livres, de les noter, et de sécuriser les données via une authentification JWT. J’ai également mis en place l’optimisation des images envoyées par les utilisateurs, tout en respectant les bonnes pratiques du Green Code.",
+    "description": "Le projet Mon Vieux Grimoire vise à développer le back-end d’un site de notation de livres pour une chaîne de librairies lilloise. Plusieurs problématiques ont été rencontrées : gestion sécurisée des utilisateurs, optimisation des images, et cohérence des notations. Pour y répondre, j’ai mis en place une authentification JWT sécurisant les accès, utilisé Multer et Sharp pour compresser les images tout en respectant le Green Code, et structuré l’API pour empêcher qu’un même utilisateur note plusieurs fois un livre. Enfin, le calcul dynamique de la moyenne des notes garantit une mise à jour en temps réel des évaluations.",
     "image": "Grimoire.webp",
     "lien": "https://github.com/Jyrenn/Projet_OC6",
     "skills": [

@@ -312,4 +312,9 @@ h1 {
     width: 8vw;
     height: 8vw;
   }
+
+  .arrow img:hover {
+    width: 8vw;
+    height: 8vw;
+  }
 }
