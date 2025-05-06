@@ -6,11 +6,17 @@
   border: solid gray 2px;
   padding-left: 2vw;
   padding-right: 2vw;
+  margin-bottom: 1vw;
   justify-content: center;
   font-size: 1vw;
   color: #fff;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.Bouton a {
+  width: 100%;
+  text-align: center;
 }
 
 /* Garde le texte visible par-dessus */

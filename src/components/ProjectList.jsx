@@ -66,6 +66,7 @@ const ProjectList = () => {
               )}
               <div className="trait"></div>
               <Bouton texte="source" lien={project.lien} />
+              <Bouton texte="site" lien={project.site} />
             </div>
           </motion.div>
         ))}

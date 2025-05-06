@@ -5,6 +5,7 @@
     "description": "Le projet Booki consiste à intégrer l’interface d’un site web permettant aux utilisateurs de trouver des hébergements et des activités. L’un des défis majeurs est de convertir fidèlement la maquette en une page responsive en utilisant HTML et CSS. La structuration des éléments, le positionnement avec Flexbox/Grid et l’adaptation aux différents écrans nécessitent une approche rigoureuse. L’utilisation des media queries permet d’assurer un affichage adapté à toutes les tailles d’écran.",
     "image": "Booki.webp",
     "lien": "https://github.com/Jyrenn/ProjetOC_2",
+    "site": "https://projet-oc-2.vercel.app",
     "skills": [
       { "id": 1, "name": "HTML", "icon": "html5.webp" },
       { "id": 2, "name": "CSS", "icon": "css.webp" }
@@ -16,6 +17,7 @@
     "description": "Le projet Kasa est une refonte d’un site de location d’appartements, visant à moderniser une application existante avec une stack JavaScript. Ma mission est de développer le front-end en React à partir de maquettes Figma responsives, en utilisant Vite, React Router et Sass. Les défis incluent la création de composants réutilisables, la gestion fluide des interactions (carrousel, collapses) et une navigation robuste, tout en travaillant sans back-end avec des données JSON.",
     "image": "Kasa.webp",
     "lien": "https://github.com/Jyrenn/Projet_OC5",
+    "site": "https://projet-oc-5.vercel.app",
     "skills": [
       { "id": 1, "name": "React", "icon": "react.webp" },
       { "id": 2, "name": "Css", "icon": "css.webp" },
@@ -30,6 +32,7 @@
     "description": "Le projet Mon Vieux Grimoire vise à développer le back-end d’un site de notation de livres pour une chaîne de librairies lilloise. Plusieurs problématiques ont été rencontrées : gestion sécurisée des utilisateurs, optimisation des images, et cohérence des notations. Pour y répondre, j’ai mis en place une authentification JWT sécurisant les accès, utilisé Multer et Sharp pour compresser les images tout en respectant le Green Code, et structuré l’API pour empêcher qu’un même utilisateur note plusieurs fois un livre. Enfin, le calcul dynamique de la moyenne des notes garantit une mise à jour en temps réel des évaluations.",
     "image": "Grimoire.webp",
     "lien": "https://github.com/Jyrenn/Projet_OC6",
+    "site": "https://projet-oc-6-frontend.vercel.app",
     "skills": [
       { "id": 1, "name": "Express", "icon": "express.webp" },
       { "id": 2, "name": "Mongodb", "icon": "mongodb.webp" },
